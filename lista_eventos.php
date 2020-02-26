@@ -10,12 +10,12 @@ $eventos_json = [];
 
 while($evento = $lista_eventos->fetch_assoc())
 {
-  $eventos_jason [] = [
+  $eventos_json [] = [
     'id'=>$evento['id'],
-    'titulo'=>$evento['titulo'],
-    'cor'=>$evento['cor'],
-    'inicio'=>$evento['inicio'],
-    'fim'=>$evento['fim']
+    'title'=>$evento['titulo'],
+    'color'=>$evento['cor'],
+    'start'=>$evento['inicio'],
+    'end'=>$evento['fim']
   ];
 }
 
